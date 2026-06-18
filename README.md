@@ -8,8 +8,10 @@ delivered with **Avanade**.
 
 ## What's here
 - **`index.html`** — the engagement hub: the problem, the closed-loop demo (IoT → case →
-  work order → schedule → mobile execute → customer experience → analytics → sales), the
-  value it unlocks, what's committed vs. next, and the proposed regional-ERP next phase.
+  work order → schedule → mobile execute → customer experience → analytics → sales), an
+  embedded **technician day-in-the-life video**, the value it unlocks, what's committed
+  vs. next, and the proposed regional-ERP next phase.
+- **`video/tennant-dayinlife.mp4`** — ~5-min technician day-in-the-life (web-optimized).
 
 ## Demo
 June 17, 2026 · EMEA-first · Microsoft + Avanade + Tennant.
