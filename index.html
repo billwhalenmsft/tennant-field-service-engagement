@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tennant × Microsoft — Field Service Engagement Hub</title>
+<style>
+  :root{
+    --ms-blue:#0078D4; --ms-blue-dk:#005a9e; --ink:#1b1b1f; --muted:#5c5c66;
+    --bg:#f6f8fb; --card:#ffffff; --line:#e6e9ef; --green:#107C10; --amber:#9a6700;
+    --tennant:#00833e; --shadow:0 6px 24px rgba(0,40,90,.08);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Segoe UI",Aptos,Calibri,-apple-system,sans-serif;line-height:1.55}
+  .bar{height:6px;background:linear-gradient(90deg,#F25022 0 25%,#7FBA00 25% 50%,#00A4EF 50% 75%,#FFB900 75% 100%)}
+  .wrap{max-width:980px;margin:0 auto;padding:0 22px}
+  header.hero{background:linear-gradient(135deg,#0b3b66,#0078D4);color:#fff;padding:38px 0 30px}
+  .eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.85;font-weight:700}
+  h1{font-size:34px;line-height:1.1;margin:8px 0 10px}
+  .hero p{font-size:17px;max-width:760px;opacity:.95;margin:0 0 16px}
+  .partners{display:flex;gap:18px;flex-wrap:wrap;align-items:center;font-size:13px;opacity:.92;margin-top:6px}
+  .chip{display:inline-block;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);
+    border-radius:20px;padding:4px 12px;font-size:12.5px;font-weight:600}
+  section{padding:30px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:22px;margin:0 0 6px;display:flex;align-items:center;gap:9px}
+  h2 .n{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:7px;
+    background:var(--ms-blue);color:#fff;font-size:14px}
+  .lead{color:var(--muted);max-width:760px;margin:0 0 16px}
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;box-shadow:var(--shadow)}
+  .card h3{margin:0 0 6px;font-size:15px}
+  .card p{margin:0;font-size:14px;color:var(--muted)}
+  .loop{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0 4px}
+  .node{background:#eef5fc;border:1px solid #cfe4fa;color:#0b3b66;border-radius:9px;padding:8px 12px;font-weight:650;font-size:13.5px}
+  .arr{color:var(--ms-blue);font-weight:800}
+  table{width:100%;border-collapse:collapse;margin-top:10px;font-size:14px}
+  th{background:#eef2f7;text-align:left;padding:9px 11px;border:1px solid var(--line);font-weight:650}
+  td{padding:9px 11px;border:1px solid var(--line);vertical-align:top}
+  .pill{display:inline-block;font-size:11.5px;font-weight:700;padding:2px 9px;border-radius:20px}
+  .committed{background:#dff6dd;color:var(--green)}
+  .upside{background:#fff4ce;color:var(--amber)}
+  .roadmap{background:#eef5fc;color:#0b3b66}
+  ul.clean{margin:8px 0 0;padding-left:20px}
+  ul.clean li{margin:5px 0}
+  .value{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:8px}
+  .value .v{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;text-align:center;box-shadow:var(--shadow)}
+  .value .big{font-size:26px;font-weight:800;color:var(--ms-blue)}
+  .value .cap{font-size:13px;color:var(--muted);margin-top:4px}
+  .next{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--ms-blue);border-radius:10px;padding:14px 18px;margin-top:10px}
+  .next b{color:var(--ink)}
+  footer{padding:26px 0 50px;color:var(--muted);font-size:13px}
+  footer .safe{background:#eef5fc;border:1px solid #cfe4fa;border-radius:8px;padding:10px 14px;color:#0b3b66;margin-bottom:14px;font-size:12.5px}
+  @media(max-width:720px){.grid,.value{grid-template-columns:1fr}h1{font-size:27px}}
+</style>
+</head>
+<body>
+<div class="bar"></div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Microsoft &middot; Field Service Engagement Hub</div>
+    <h1>Tennant Company — modernizing global field service</h1>
+    <p>A single place to revisit what we showed on June 17, the value it unlocks for your EMEA technician
+       workforce, the proposed architecture, and the path to a regional-ERP next phase.</p>
+    <div class="partners">
+      <span class="chip">Tennant Company</span>
+      <span class="chip">Microsoft &mdash; Bill Whalen, Principal SE</span>
+      <span class="chip">Avanade &mdash; delivery partner</span>
+      <span class="chip">Demo: June 17, 2026 &middot; EMEA-first</span>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2><span class="n">1</span> The problem we set out to solve</h2>
+    <p class="lead">Tennant runs a global field-service operation — ~500 EMEA technicians, 3&ndash;4 jobs a day,
+       often offline — on a fragmented regional ERP landscape. The cost shows up as lost technician
+       productivity, avoidable truck rolls, and slow, manual coordination. EMEA is the first rollout.</p>
+    <div class="grid">
+      <div class="card"><h3>~500 EMEA techs, often offline</h3><p>Paperwork + lost productivity → offline-capable mobile with Copilot-assisted task completion.</p></div>
+      <div class="card"><h3>Avoidable truck rolls</h3><p>Cost + equipment downtime → self-service portal + remote IoT command for deflection.</p></div>
+      <div class="card"><h3>Connected equipment (X4 ROVR, T600E)</h3><p>Telemetry underused → IoT signals auto-raise the case and the work order before the customer calls.</p></div>
+      <div class="card"><h3>Fragmented regional ERP</h3><p>SAP in NA, Vitec/Navision/Tally regionally → a service spine that sits above, integrating per region in phases.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2><span class="n">2</span> What we showed — one closed loop</h2>
+    <p class="lead">A single linear thread, end to end. The anchor: <b>"all roads lead to a work order."</b>
+       Built on out-of-the-box Dynamics 365 Field Service + Customer Service, with AI, IoT, and self-service on top.</p>
+    <div class="loop">
+      <span class="node">IoT signal</span><span class="arr">→</span>
+      <span class="node">Case</span><span class="arr">→</span>
+      <span class="node">Work Order</span><span class="arr">→</span>
+      <span class="node">Schedule / Dispatch</span><span class="arr">→</span>
+      <span class="node">Technician mobile (offline)</span><span class="arr">→</span>
+      <span class="node">Asset 360 / Optimize</span><span class="arr">→</span>
+      <span class="node">Lead to Sales</span>
+    </div>
+    <p class="lead" style="margin-top:14px">The hero scenario: an <b>X4 ROVR autonomous scrubber battery replacement</b> at a
+       UK distribution site — a reactive case and a proactive, contract-driven preventive work order, scheduled,
+       dispatched, and executed on a technician's offline mobile, with the asset's full 360 history and a
+       follow-on sales lead — all in one connected flow.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2><span class="n">3</span> The value it unlocks</h2>
+    <div class="value">
+      <div class="v"><div class="big">Fewer</div><div class="cap">truck rolls — remote IoT command + self-service deflection</div></div>
+      <div class="v"><div class="big">Faster</div><div class="cap">first-time fix — Asset 360 + Copilot guidance in the tech's hand, offline</div></div>
+      <div class="v"><div class="big">Connected</div><div class="cap">IoT → case → work order before the customer even calls</div></div>
+    </div>
+    <p class="lead" style="margin-top:16px">Every step traces back to a measurable field-service outcome — cost per
+       job, first-time-fix rate, technician utilization, and equipment uptime — not just a feature tour.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2><span class="n">4</span> What's committed vs. what's next</h2>
+    <p class="lead">We deliberately separated the dependable OOTB spine (committed for the live run) from the
+       AI/IoT/portal flourishes (confirmed in validation) and external-system items (architecture + recorded).</p>
+    <table>
+      <thead><tr><th>Capability</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>Intake → Case → Work Order → Schedule/Dispatch → Technician mobile → Asset 360 → Quote/Lead-to-Sales</td><td><span class="pill committed">Committed core</span></td></tr>
+        <tr><td>Copilot self-service agent · simulated-IoT auto-work-order · web chat · custom flows</td><td><span class="pill upside">Confirm-then-add</span></td></tr>
+        <tr><td>Live SAP integration · live IoT hardware · Guides / Remote Assist</td><td><span class="pill roadmap">Architecture + recording</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2><span class="n">5</span> Proposed next phase</h2>
+    <p class="lead">The EMEA service spine is the foundation. The natural next step is a focused proof of value on
+       the highest-friction integration point.</p>
+    <div class="next">
+      <b>Regional ERP proof of value.</b> Take one region's ERP (e.g. the EMEA SAP or a regional system) and prove
+      the work-order-to-ERP round trip — so service execution, parts, and billing stay in sync across the fragmented
+      landscape. Scope it small, prove it real, then template it region by region.
+    </div>
+    <ul class="clean">
+      <li><b>Confirm the committed scope</b> with Avanade for the Tennant rollout plan.</li>
+      <li><b>Agree the regional-ERP POV</b> — region, success metric, and timeline.</li>
+      <li><b>Extend the demo environment</b> toward Tennant's real EMEA configuration as the POV firms up.</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="safe">This hub is a customer-safe summary of the June 17 engagement. Technical environment
+      identifiers have been omitted; it is cleared to share with the Tennant and Avanade teams.</div>
+    Prepared by <b>Bill Whalen</b>, Principal Solution Engineer, Microsoft &middot; with Avanade &middot;
+    Field Service Management modernization, EMEA-first &middot; June 2026.
+  </div>
+</footer>
+</body>
+</html>
