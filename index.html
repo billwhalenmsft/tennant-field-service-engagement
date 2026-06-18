@@ -43,6 +43,9 @@
   .roadmap{background:#eef5fc;color:#0b3b66}
   ul.clean{margin:8px 0 0;padding-left:20px}
   ul.clean li{margin:5px 0}
+  .card h3 a{color:var(--ms-blue);text-decoration:none}
+  .card h3 a:hover{text-decoration:underline}
+  .card h3 a::after{content:" ↗";font-size:11px;color:var(--muted);text-decoration:none}
   .value{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:8px}
   .value .v{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;text-align:center;box-shadow:var(--shadow)}
   .value .big{font-size:26px;font-weight:800;color:var(--ms-blue)}
@@ -168,6 +171,24 @@
       <li><b>Agree the regional-ERP POV</b> — region, success metric, and timeline.</li>
       <li><b>Extend the demo environment</b> toward Tennant's real EMEA configuration as the POV firms up.</li>
     </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2><span class="n">6</span> Learn more — official Microsoft resources</h2>
+    <p class="lead">Authoritative documentation for the capabilities we walked through — each maps to a beat in the
+       demo. (Public Microsoft Learn; no sign-in required.)</p>
+    <div class="grid">
+      <div class="card"><h3><a href="https://learn.microsoft.com/dynamics365/field-service/overview" target="_blank" rel="noopener">Field Service — overview</a></h3><p>The whole platform: work orders, scheduling, mobile, assets, and the connected service lifecycle.</p></div>
+      <div class="card"><h3><a href="https://learn.microsoft.com/dynamics365/field-service/create-work-order" target="_blank" rel="noopener">Intake → work order</a></h3><p>How requests from cases, email, phone, agreements, portals, and IoT become work orders.</p></div>
+      <div class="card"><h3><a href="https://learn.microsoft.com/dynamics365/field-service/rso-overview" target="_blank" rel="noopener">Scheduling &amp; optimization (RSO)</a></h3><p>Schedule board, Schedule Assistant, and Resource Scheduling Optimization — manual to fully automated.</p></div>
+      <div class="card"><h3><a href="https://learn.microsoft.com/dynamics365/field-service/mobile/overview" target="_blank" rel="noopener">Field Service Mobile</a></h3><p>The technician app — offline-capable, inspections, parts/inventory, and Copilot assistance.</p></div>
+      <div class="card"><h3><a href="https://learn.microsoft.com/dynamics365/field-service/customer-portal-technician-tracking" target="_blank" rel="noopener">Customer self-service &amp; live tracking</a></h3><p>The "Uber-style" portal — self-scheduling, notifications, and real-time technician tracking on a map.</p></div>
+      <div class="card"><h3><a href="https://learn.microsoft.com/dynamics365/field-service/inspections" target="_blank" rel="noopener">Inspections</a></h3><p>Digital, graphical (and voice-enabled) checklists tied to incident types and service tasks.</p></div>
+      <div class="card"><h3><a href="https://learn.microsoft.com/dynamics365/field-service/functional-locations" target="_blank" rel="noopener">Assets &amp; functional locations</a></h3><p>Pinpoint exactly where each unit lives — across multi-location customers with 1,000+ machines.</p></div>
+      <div class="card"><h3><a href="https://learn.microsoft.com/dynamics365/field-service/annotate-teams-mobile" target="_blank" rel="noopener">Remote expert help (spatial annotations in Teams mobile)</a></h3><p>Loop in a remote subject-matter expert who can draw arrows/annotations on the technician's live view.</p></div>
+    </div>
   </div>
 </section>
 
