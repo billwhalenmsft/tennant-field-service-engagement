@@ -16,7 +16,13 @@
   .bar{height:6px;background:linear-gradient(90deg,#F25022 0 25%,#7FBA00 25% 50%,#00A4EF 50% 75%,#FFB900 75% 100%)}
   .wrap{max-width:980px;margin:0 auto;padding:0 22px}
   header.hero{background:linear-gradient(135deg,#0b3b66,#0078D4);color:#fff;padding:38px 0 30px}
-  .eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.85;font-weight:700}
+  .eyebrow{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+  .ms-logo{display:flex;gap:3px}
+  .ms-sq{width:13px;height:13px;border-radius:1px}
+  .ms-sq.r{background:#F25022}.ms-sq.g{background:#7FBA00}.ms-sq.b{background:#00A4EF}.ms-sq.y{background:#FFB900}
+  .eyebrow-text{font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.85;font-weight:700}
+  .divider{width:1px;height:16px;background:rgba(255,255,255,.3)}
+  .cobrand-logo{height:30px;display:block}
   h1{font-size:34px;line-height:1.1;margin:8px 0 10px}
   .hero p{font-size:17px;max-width:760px;opacity:.95;margin:0 0 16px}
   .partners{display:flex;gap:18px;flex-wrap:wrap;align-items:center;font-size:13px;opacity:.92;margin-top:6px}
@@ -56,7 +62,7 @@
   .next b{color:var(--ink)}
   footer{padding:26px 0 50px;color:var(--muted);font-size:13px}
   footer .safe{background:#eef5fc;border:1px solid #cfe4fa;border-radius:8px;padding:10px 14px;color:#0b3b66;margin-bottom:14px;font-size:12.5px}
-  @media(max-width:720px){.grid,.value{grid-template-columns:1fr}h1{font-size:27px}}
+  @media(max-width:720px){.grid,.value{grid-template-columns:1fr}h1{font-size:27px}.cobrand-logo{height:26px}}
 </style>
 </head>
 <body>
@@ -65,7 +71,12 @@
 
 <header class="hero">
   <div class="wrap">
-    <div class="eyebrow">Microsoft &middot; Field Service Engagement Hub</div>
+    <div class="eyebrow">
+      <span class="ms-logo"><span class="ms-sq r"></span><span class="ms-sq g"></span><span class="ms-sq b"></span><span class="ms-sq y"></span></span>
+      <span class="eyebrow-text">Microsoft &middot; Field Service Engagement Hub</span>
+      <span class="divider"></span>
+      <img class="cobrand-logo" src="tennant-logo.png" alt="Tennant Company" />
+    </div>
     <h1>Tennant Company — modernizing global field service</h1>
     <p>A single place to revisit what we showed on June 17, the value it unlocks for your EMEA technician
        workforce, the proposed architecture, and the path to a regional-ERP next phase.</p>
