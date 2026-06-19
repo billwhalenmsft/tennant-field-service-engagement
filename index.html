@@ -45,6 +45,8 @@
   ul.clean li{margin:5px 0}
   .card h3 a{color:var(--ms-blue);text-decoration:none}
   .card h3 a:hover{text-decoration:underline}
+  .card p a{color:var(--ms-blue);font-weight:600;text-decoration:none}
+  .card p a:hover{text-decoration:underline}
   .card h3 a::after{content:" ↗";font-size:11px;color:var(--muted);text-decoration:none}
   .value{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:8px}
   .value .v{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;text-align:center;box-shadow:var(--shadow)}
@@ -171,6 +173,23 @@
       <li><b>Agree the regional-ERP POV</b> — region, success metric, and timeline.</li>
       <li><b>Extend the demo environment</b> toward Tennant's real EMEA configuration as the POV firms up.</li>
     </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2><span class="n">?</span> What you asked next &mdash; and where Dynamics 365 answers it</h2>
+    <p class="lead">Great follow-up questions came back from the joint Microsoft &amp; Avanade team after the session.
+       Short answer: each is a <b>yes</b> in Dynamics 365 Field Service today &mdash; here&rsquo;s where, and every
+       one is on the agenda for our next deep-dive.</p>
+    <div class="grid">
+      <div class="card"><h3>Can large customers create service tickets via their own APIs?</h3><p><b>Yes.</b> The <a href="https://learn.microsoft.com/power-apps/developer/data-platform/webapi/overview" target="_blank" rel="noopener">Dataverse Web API</a> (OData/REST) lets a customer&rsquo;s own systems create cases and work orders directly &mdash; alongside email-to-case, IoT signals, portal intake, and Power Automate connectors. Large enterprises commonly wire their monitoring, CMMS, or ERP to raise tickets automatically.</p></div>
+      <div class="card"><h3>Can scheduling work in levels &mdash; remote-first, then dispatch?</h3><p><b>Yes.</b> <a href="https://learn.microsoft.com/dynamics365/field-service/rso-overview" target="_blank" rel="noopener">Scheduling</a> honors skills, territory, priority, and resource preferences, so you can resolve remotely first and dispatch a field technician only when needed &mdash; manually, with the Schedule Assistant, or fully automated.</p></div>
+      <div class="card"><h3>Does the customer see where the technician is?</h3><p><b>Yes.</b> <a href="https://learn.microsoft.com/dynamics365/field-service/customer-portal-technician-tracking" target="_blank" rel="noopener">Real-time tracking and arrival notifications</a> give an &ldquo;Uber-style&rdquo; live view of the technician en route &mdash; by SMS, email, or self-service portal.</p></div>
+      <div class="card"><h3>Can management see all technicians&rsquo; routes at once?</h3><p><b>Yes.</b> The dispatcher <a href="https://learn.microsoft.com/dynamics365/field-service/rso-overview" target="_blank" rel="noopener">schedule board</a> includes a live map showing every technician&rsquo;s location and route at the same time &mdash; whole-region oversight at a glance.</p></div>
+      <div class="card"><h3>Can we control who sees what progress?</h3><p><b>Yes.</b> Security roles, business units, and <a href="https://learn.microsoft.com/power-platform/admin/hierarchy-security" target="_blank" rel="noopener">manager / position hierarchy security</a> scope visibility by role and region, with field-level security for sensitive data &mdash; so each level of the org sees exactly what it should.</p></div>
+      <div class="card"><h3>Can AI build machine-specific knowledge, not just manual articles?</h3><p><b>Yes.</b> <a href="https://learn.microsoft.com/dynamics365/field-service/field-service-km-overview" target="_blank" rel="noopener">Knowledge articles</a> link to specific products, assets, and incident types &mdash; and <a href="https://learn.microsoft.com/dynamics365/field-service/copilot-overview" target="_blank" rel="noopener">Copilot</a> can draft and summarize knowledge from real case and work-order history, and ground answers across manuals, SharePoint, and Dataverse. That&rsquo;s AI building and connecting the knowledge base, not manual authoring alone.</p></div>
+    </div>
   </div>
 </section>
 
