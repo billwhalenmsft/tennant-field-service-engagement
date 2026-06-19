@@ -62,6 +62,9 @@
   .next b{color:var(--ink)}
   footer{padding:26px 0 50px;color:var(--muted);font-size:13px}
   footer .safe{background:#eef5fc;border:1px solid #cfe4fa;border-radius:8px;padding:10px 14px;color:#0b3b66;margin-bottom:14px;font-size:12.5px}
+  .cobrand-band{background:linear-gradient(135deg,#0b3b66,#0078D4);border-radius:12px;padding:16px 20px;display:flex;gap:18px;align-items:center;justify-content:center;flex-wrap:wrap;margin-bottom:18px}
+  .cobrand-band .lbl{font-size:13px;font-weight:600;color:#fff}
+  .cobrand-band .cobrand-logo{height:26px}
   @media(max-width:720px){.grid,.value{grid-template-columns:1fr}h1{font-size:27px}.cobrand-logo{height:26px}}
 </style>
 </head>
@@ -73,9 +76,11 @@
   <div class="wrap">
     <div class="eyebrow">
       <span class="ms-logo"><span class="ms-sq r"></span><span class="ms-sq g"></span><span class="ms-sq b"></span><span class="ms-sq y"></span></span>
-      <span class="eyebrow-text">Microsoft &middot; Field Service Engagement Hub</span>
+      <span class="eyebrow-text">Microsoft</span>
       <span class="divider"></span>
       <img class="cobrand-logo" src="tennant-logo.png" alt="Tennant Company" />
+      <span class="divider"></span>
+      <img class="cobrand-logo" src="avanade-logo.png" alt="Avanade" />
     </div>
     <h1>Tennant Company — modernizing global field service</h1>
     <p>A single place to revisit what we showed on June 17, the value it unlocks for your EMEA technician
@@ -225,6 +230,14 @@
 
 <footer>
   <div class="wrap">
+    <div class="cobrand-band">
+      <span class="ms-logo"><span class="ms-sq r"></span><span class="ms-sq g"></span><span class="ms-sq b"></span><span class="ms-sq y"></span></span>
+      <span class="lbl">Microsoft</span>
+      <span class="divider"></span>
+      <img class="cobrand-logo" src="tennant-logo.png" alt="Tennant Company" />
+      <span class="divider"></span>
+      <img class="cobrand-logo" src="avanade-logo.png" alt="Avanade" />
+    </div>
     <div class="safe">This hub is a customer-safe summary of the June 17 engagement. Technical environment
       identifiers have been omitted; it is cleared to share with the Tennant and Avanade teams.</div>
     Prepared by <b>Bill Whalen</b>, Principal Solution Engineer, Microsoft &middot; with Avanade &middot;
