@@ -61,7 +61,7 @@
   }
   function showPrompt(err) {
     wall(
-      "<div style='display:flex;align-items:center;justify-content:center;gap:14px;margin-bottom:20px'>" +
+      "<div style='display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;margin-bottom:20px'>" +
       "<div style='display:flex;align-items:center;gap:7px'>" +
       "<div style='display:grid;grid-template-columns:repeat(2,11px);gap:2px'>" +
       "<span style='display:block;width:11px;height:11px;background:#F25022'></span>" +
@@ -70,7 +70,9 @@
       "<span style='display:block;width:11px;height:11px;background:#FFB900'></span></div>" +
       "<span style='font-size:15px;font-weight:600;color:#fff'>Microsoft</span></div>" +
       "<span style='width:1px;height:26px;background:rgba(255,255,255,.3)'></span>" +
-      "<img src='tennant-logo.png' alt='Tennant Company' style='height:26px;display:block'/></div>" +
+      "<img src='tennant-logo.png' alt='Tennant Company' style='height:26px;display:block'/>" +
+      "<span style='width:1px;height:26px;background:rgba(255,255,255,.3)'></span>" +
+      "<img src='avanade-logo.png' alt='Avanade' style='height:26px;display:block'/></div>" +
       "<h1 style='font-size:21px;margin:0 0 4px'>" + CFG.title + "</h1>" +
       "<p style='color:rgba(255,255,255,.6);margin:0 0 18px;font-size:13px'>" + CFG.subtitle + "</p>" +
       "<input id='seos-pw' type='password' autocomplete='off' placeholder='Password' " +
